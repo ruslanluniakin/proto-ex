@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	//"github.com/ruslanluniakin/proto-ex/internal/pingpong"
+	"github.com/ruslanluniakin/proto-ex/api/pingpongapi"
 )
 
 // api is an implementation of pingpongapi.PingPongServer
