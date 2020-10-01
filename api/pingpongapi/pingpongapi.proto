@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package pingpongapi;
+
+option go_package = "api/pingpongapi";
+
+service PingPong {
+    rpc PingPong(PingPongReq) returns (PingPongRsp);
+}
+
+message PingPongReq {
+    string Text = 1;
+}
+
+message PingPongRsp {
+    string Text = 1;
+}
