@@ -5,7 +5,7 @@ import (
 	"net"
 
 	"github.com/ruslanluniakin/proto-ex/api/pingpongapi"
-	"github.com/ruslanluniakin/proto-ex/internal/pingpong"
+	"github.com/ruslanluniakin/proto-ex/pingpong"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/grpclog"
 )
