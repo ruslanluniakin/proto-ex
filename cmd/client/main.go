@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/ruslanluniakin/proto-ex/grpc-example/api/pingpongapi"
+	"github.com/ruslanluniakin/proto-ex/api/pingpongapi"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/grpclog"
 )

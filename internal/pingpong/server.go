@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/ruslanluniakin/proto-ex/grpc-example/api/pingpongapi"
+	"github.com/ruslanluniakin/proto-ex/internal/pingpong"
 )
 
 // api is an implementation of pingpongapi.PingPongServer
